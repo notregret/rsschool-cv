@@ -1,0 +1,52 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 23px;
+  margin: 0;
+  max-width: 1000px;
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+section,
+footer {
+  margin-left: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#name {
+  margin-left: 50px;
+  font-size: 40px;
+}
+img {
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: black; /* Цвет ссылок */
+}
+a:visited {
+  color: #900060; /* Цвет посещенных ссылок */
+}
+a:active {
+  color: #f00; /* Цвет активной ссылки */
+}
+footer{
+    margin-bottom: 10px;
+}
+section{
+    margin-top: 5px;
+}
