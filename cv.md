@@ -5,4 +5,4 @@ be good programmer in future, and i truly like it
 4. I am work with python, c, django, now i am studying js/html/css, have experince with git. I know how to use pycharm and webstorm
 5. Examples you can find in my github profile
 6. I studied in stepik, jetbrains hyperskill
-7. My English test level is B1
+7. My English test level is B1.
