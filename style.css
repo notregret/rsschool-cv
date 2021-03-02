@@ -1,0 +1,66 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 23px;
+  margin: 0;
+  max-width: 1000px;
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+  margin: 0 auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+header {
+  margin-bottom: 15px;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#name {
+  margin-left: 50px;
+  font-size: 50px;
+}
+img {
+  border-radius: 10px;
+}
+section,
+footer {
+  margin: 0px 50px 0 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-right: 40px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: black; /* Цвет ссылок */
+}
+a:visited {
+  color: #0c0c0c; /* Цвет посещенных ссылок */
+}
+
+footer {
+  margin-bottom: 10px;
+}
+section {
+  margin-top: 5px;
+}
+#time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
