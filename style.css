@@ -1,5 +1,7 @@
 *,
 *:after,
+*,
+*:after,
 *:before {
   box-sizing: border-box;
   margin: 0;
@@ -35,7 +37,9 @@ section,
 footer {
   margin: 0px 50px 0 50px;
 }
-
+#skills{
+  display: block;
+}
 ul {
   display: flex;
   list-style-type: none;
