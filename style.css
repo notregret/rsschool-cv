@@ -5,20 +5,19 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 23px;
   margin: 0;
   max-width: 1000px;
   background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+  margin: 0 auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
-section,
-footer {
-  margin-left: 50px;
-}
-ul {
-  list-style-type: none;
+header {
+  margin-bottom: 15px;
 }
 .conteiner {
   display: flex;
@@ -27,10 +26,22 @@ ul {
 }
 #name {
   margin-left: 50px;
-  font-size: 40px;
+  font-size: 50px;
 }
 img {
   border-radius: 10px;
+}
+section,
+footer {
+  margin: 0px 50px 0 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-right: 40px;
 }
 a {
   text-decoration: none;
@@ -39,14 +50,17 @@ a:link {
   color: black; /* Цвет ссылок */
 }
 a:visited {
-  color: #900060; /* Цвет посещенных ссылок */
+  color: #0c0c0c; /* Цвет посещенных ссылок */
 }
-a:active {
-  color: #f00; /* Цвет активной ссылки */
+
+footer {
+  margin-bottom: 10px;
 }
-footer{
-    margin-bottom: 10px;
+section {
+  margin-top: 5px;
 }
-section{
-    margin-top: 5px;
+#time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
